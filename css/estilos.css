@@ -1,0 +1,1657 @@
+body{
+  background: rgb(234, 215, 254);
+}
+
+#login{
+    color: rgb(255, 255, 255); 
+    background: linear-gradient(55deg, rgba(160,30,200,100) 0%, rgba(187,34,200,100) 30%, rgba(297,92,184,50) 100%);
+    width: 370px;
+    min-height: 500px;
+    border-radius: 25px 0 25px 0;
+    margin: 0 auto;
+    margin-top: 250px;
+    text-align: center;
+}
+
+#login2{
+    color: rgb(255, 255, 255); 
+    background: linear-gradient(55deg, rgba(160,30,200,100) 0%, rgba(187,34,200,100) 30%, rgba(297,92,184,50) 100%);
+    width: 370px;
+    min-height: 500px;
+    border-radius: 25px 0 25px 0;
+    margin: 0 auto;
+    margin-top: 250px;
+    text-align: center;
+}
+
+#login h1{
+    margin: 0 auto;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font: bold 200% arial;
+    margin-top: 10px;
+}
+
+.caja{
+    border-radius: 10px;
+    width: 80%;
+    height: 40px;
+    background: rgba(217, 166, 245, 0.763);
+    border-style: hidden;
+    font-size: 17px;
+    text-align: center;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+.user{
+    background-image: url(../imagenes/ic-username_97587.png);
+    background-position: 10px;
+    background-repeat: no-repeat;
+    background-size: 30px;
+}
+
+.pass{
+    background-image: url(../imagenes/icons8-password-48.png);
+    background-position: 2px;
+    background-repeat: no-repeat;
+}
+
+.boton{
+    border-radius: 15px;
+    width: 60%;
+    height: 45px;
+    color: rgb(255, 255, 255);
+    background: rgb(255, 66, 217);
+    border-style: hidden;
+    font-size: 20px;
+}
+
+#login p{
+    /*text-align: right;*/
+    font: 100% arial;
+    padding-left: 175px;
+    font-size: 11px;
+}
+
+.email{
+    background-image: url(../imagenes/icons8-arroba-48.png);
+    background-position: 10px;
+    background-repeat: no-repeat;
+    background-size: 30px;
+}
+
+#login p.em{
+    /*text-align: right;*/
+    font: 100% arial;
+    padding-left: 10px;
+    font-size: 11px;
+}
+
+#login a:link{
+    color: rgb(250, 245, 245);
+}
+
+#login a:visited{
+    color: rgb(255, 255, 255);
+}
+
+#login a:hover{
+    color: #7b00ff;
+}
+
+.izquierdo{
+    background: rgba(255, 113, 238, 0.265);
+    color: #000;
+    float: left;
+    width: 15%;
+    font: 100% arial;
+    text-align: center;
+    min-height:99vh ;
+    padding-top: 30px;
+}
+
+.derecho{
+    background: rgb(234, 215, 254);
+    float: left;
+    width: 85%;
+    min-height: 99vh;
+}
+
+.derecho h1{
+    color: rgb(0, 0, 0);
+    font: 200% arial;
+    font-weight: 600;
+    text-align: center;
+    font-size: 40px;
+}
+ul.menu {
+    padding-left: 0px;
+    list-style: none;
+}
+ul.menu li{
+    color: #ffffff;
+    font: 150% arial;
+    text-align: left;
+    padding: 10px;
+}
+ul.menu li a{
+    color: #ffffff;
+    text-decoration: none;
+}
+ul.menu li a:hover{
+    background: #eb5abb4c;
+    padding-right: 85%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+ul.menu li a:active{
+    background: rgb(224, 70, 251);
+    padding-right: 85%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.icono {
+    background-size: 24px;
+    padding-left: 32px;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+.home {
+    background-image: url(../imagenes/home.png);
+}
+.cliente {
+    background-image: url(../imagenes/cliente.png);
+}
+.servicio {
+    background-image: url(../imagenes/servicios.png);
+}
+.trabajador {
+    background-image: url(../imagenes/trabajador.png);
+}
+.venta {
+    background-image: url(../imagenes/pagos.png);
+}
+.salir {
+    background-image: url(../imagenes/salir.png);
+}
+
+.targ-cliente{
+    background: #4bcac447;
+    float: left;
+    width: 400px;
+    height:200px ;
+    margin-left: 90px;
+    border-radius: 25px;
+    text-align: right;
+    border-style: dashed;
+    border-color: #de7cffa3;
+}
+.targ-cliente div {
+    display: flex;
+    width: 100%;
+}
+.targ-cliente div div {
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+.targ-cliente div div {
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+.targ-cliente img{
+    width: 35%;
+}
+.targ-cliente h1{
+    color: #ffffff;
+    font-size: 45px;
+    padding-left: 0px!important;
+}
+.targ-cliente h2{
+    color: #ffffff;
+    text-align: center;
+}
+
+.targ-servicio{
+    background: #4bcac447;
+    float: left;
+    width: 400px;
+    height: 200px;
+    margin-left: 90px;
+    border-radius: 25px;
+    border-style: dashed;
+    border-color: #de7cffa3;
+}
+.targ-servicio div {
+    display: flex;
+    width: 100%;
+}
+.targ-servicio div div {
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+.targ-servicio div div {
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+.targ-servicio img{
+    width: 35%;
+}
+.targ-servicio h1{
+    color: #ffffff;
+    font-size: 45px;
+    padding-left: 0px!important;
+}
+.targ-servicio h2{
+    color: #ffffff;
+    text-align: center;
+}
+
+.targ-trabajador{
+    background: #4bcac447;
+    float: left;
+    width: 400px;
+    height: 200px;
+    margin-left: 90px;
+    border-radius: 25px;
+    border-style: dashed;
+    border-color: #de7cffa3;
+}
+.targ-trabajador div {
+    display: flex;
+    width: 100%;
+}
+.targ-trabajador div div {
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+.targ-trabajador div div {
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+.targ-trabajador img{
+    width: 35%;
+}
+.targ-trabajador h1{
+    color: #ffffff;
+    font-size: 45px;
+    padding-left: 0px!important;
+}
+.targ-trabajador h2{
+    color: #ffffff;
+    text-align: center;
+}
+
+.derecho p{
+    color: #000000;
+    padding-top: 300px;
+    padding-left: 765px;
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+
+.targ-nventa{
+    background: hsla(177, 55%, 54%, 0.278);
+    width: 400px;
+    height: 350px;
+    margin-left: 1090px;
+    padding-top: 100px;
+    border-radius: 25px;
+    border-style: dashed;
+    border-color: #de7cffa3;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+/*CLIENTE*/
+.targ-cliente1{
+    background: hsla(177, 55%, 54%, 0.278);
+    width: 1360px;
+    height: 210px;
+    margin-left: 50px;
+    margin-right: 10px;
+    border-radius: 25px;
+    border-style: dashed;
+    border-color: #de7cffa3;
+    text-align: center;
+}
+
+
+.targ-posi {
+    background: #ff77c4;
+    border-style: dashed;
+    border-color: #7c9dffa3;
+    width: 200px;
+    height:35px ;
+    margin-left: 1200px;
+    border-radius: 25px;
+}
+
+.targ-posi h2{
+    color: #000000;
+    font-size: 20px;
+    margin-left: 55px;
+}
+.targ-posi img{
+    width: 20%;
+    height: 70%;
+    float: left;
+    margin-top: 8px;
+    margin-left: 8px;
+}
+
+.nombre{
+    border-radius: 10px;
+    width: 400px;
+    height: 40px;
+    background: rgba(233, 192, 255, 0.867);
+    border-style: hidden;
+    border-style: dashed;
+    border-color: #f82fff;
+    margin-right: 10px;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+    background-image: url(../imagenes/icons8-user-50.png);
+    background-repeat: no-repeat;
+    background-position: 360px;
+    background-size: 40px;
+}
+
+.targ-name {
+    width: 350px;
+    height:50px ;
+    border-radius: 25px;
+    float: left;
+    margin-left: 30px;
+    border-radius: 25px;
+    text-align: right;
+}
+
+.targ-ape1 {
+    width: 350px;
+    height:50px ;
+    border-radius: 25px;
+    float: left;
+    margin-left: 95px;
+    border-radius: 25px;
+    text-align: right;
+}
+.targ-ape2 {
+    width: 350px;
+    height:50px ;
+    border-radius: 25px;
+    float: left;
+    margin-left: 95px;
+    border-radius: 25px;
+    text-align: right;
+}
+
+.nombre2{
+    border-radius: 10px;
+    width: 845px;
+    height: 40px;
+    background: rgba(233, 192, 255, 0.867);
+    border-style: hidden;
+    border-style: dashed;
+    border-color: #f82fff;
+    margin-right: 10px;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+    background-image: url(../imagenes/ubicacion.png);
+    background-repeat: no-repeat;
+    background-position: 810px;
+    background-size: 40px;
+}
+
+.targ-direc{
+    width: 350px;
+    height:50px ;
+    border-radius: 25px;
+    float: left;
+    margin-left: 30px;
+    border-radius: 25px;
+    text-align: right;
+}
+
+.nombre3{
+    border-radius: 10px;
+    width: 400px;
+    height: 40px;
+    background: rgba(233, 192, 255, 0.867);
+    border-style: hidden;
+    border-style: dashed;
+    border-color: #f82fff;
+    margin-right: 10px;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+    background-image: url(../imagenes/telefono.png);
+    background-repeat: no-repeat;
+    background-position: 360px;
+    background-size: 40px;
+}
+.targ-tel{
+    width: 350px;
+    height:50px ;
+    border-radius: 25px;
+    float: left;
+    margin-left: 540px;
+    border-radius: 25px;
+    text-align: right;
+}
+
+.nombre4{
+    border-radius: 10px;
+    width: 845px;
+    height: 40px;
+    background: rgba(233, 192, 255, 0.867);
+    border-style: hidden;
+    border-style: dashed;
+    border-color: #f82fff;
+    margin-right: 10px;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+    background-image: url(../imagenes/arroba.png);
+    background-repeat: no-repeat;
+    background-position: 810px;
+    background-size: 40px;
+}
+
+.nombre50{
+    border-radius: 10px;
+    width: 845px;
+    height: 40px;
+    background: rgba(233, 192, 255, 0.867);
+    border-style: hidden;
+    border-style: dashed;
+    border-color: #f82fff;
+    margin-right: 10px;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+    background-image: url(../imagenes/password_5167.png);
+    background-repeat: no-repeat;
+    background-position: 810px;
+    background-size: 40px;
+}
+
+.nombre51{
+    border-radius: 10px;
+    width: 845px;
+    height: 40px;
+    background: rgba(233, 192, 255, 0.867);
+    border-style: hidden;
+    border-style: dashed;
+    border-color: #f82fff;
+    margin-right: 10px;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+    background-image: url(../imagenes/icons8-user-50.png);
+    background-repeat: no-repeat;
+    background-position: 810px;
+    background-size: 40px;
+}
+
+.targ-correo{
+    width: 350px;
+    height:50px ;
+    border-radius: 25px;
+    float: left;
+    margin-left: 30px;
+    border-radius: 25px;
+    text-align: right;
+}
+
+.boton2{
+    border-radius: 15px;
+    width: 20%;
+    height: 45px;
+    color: rgb(255, 255, 255);
+    background: rgb(255, 66, 217);
+    border-style: double;
+    font-size: 20px;
+    margin-left: 520px;
+    margin-top: 20px;
+    font: bold;
+}
+
+/*tabla*/
+.targ-cliente2{
+    background: hsla(177, 55%, 54%, 0.278);
+    width: 1360px;
+    height: 360px;
+    margin-left: 50px;
+    border-radius: 10px;
+    border-style: dashed;
+    border-color: #de7cffa3;
+    text-align: center;
+}
+
+.nombre1{
+    border-radius: 0px;
+    width: 226.5px;
+    height: 40px;
+    background: rgba(233, 192, 255, 0.867);
+    border-style: dashed;
+    border-color: #ffffff;
+    text-align: center;
+    font-size: 20px;   
+}
+
+.targ-name1{
+    border-radius: 25px;
+    float: left;
+    border-radius: 25px;
+}
+
+.targ-ape11{
+    border-radius: 25px;
+    float: left;
+    border-radius: 25px;
+}
+
+.targ-ape22{
+    border-radius: 25px;
+    float: left;
+    border-radius: 25px;
+}
+
+.targ-direc1{
+    border-radius: 25px;
+    float: left;
+    border-radius: 25px;
+}
+
+.targ-tel1{
+    border-radius: 25px;
+    float: left;
+    border-radius: 25px;
+}
+
+.targ-correo1{
+    border-radius: 25px;
+    float: left;
+    border-radius: 25px;
+}
+
+.nombre11{
+    border-radius: 0px;
+    width: 226.5px;
+    height: 40px;
+    background: rgba(233, 192, 255, 0.867);
+    border-style: dashed;
+    border-color: #ffffff;
+    text-align: center;
+    font-size: 20px;   
+    color: rgba(233, 192, 255, 0.867);
+}
+
+.nombre111{
+    border-radius: 15px;
+    width: 10%;
+    height: 45px;
+    color: rgb(255, 255, 255);
+    background: rgb(255, 66, 217);
+    border-style: double;
+    font-size: 15px;
+    margin-left: 1150px;
+    margin-top: 20px;
+    font: bold;
+}
+
+.nombre1111{
+    border-radius: 15px;
+    width: 80%;
+    height: 45px;
+    color: rgb(255, 255, 255);
+    background: rgb(255, 66, 217);
+    border-style: double;
+    font-size: 15px;
+    margin-left: 70px;
+    margin-top: 20px;
+    font: bold;
+}
+
+/*Servicios*/
+.targ-servicios{
+    background: hsla(177, 55%, 54%, 0.278);
+    width: 1360px;
+    height: 150px;
+    margin-left: 50px;
+    border-radius: 10px;
+    border-style: dashed;
+    border-color: #de7cffa3;
+    text-align: center;
+}
+
+.boton22{
+    border-radius: 15px;
+    width: 15%;
+    height: 45px;
+    color: rgb(255, 255, 255);
+    background: rgb(255, 66, 217);
+    border-style: double;
+    font-size: 20px;
+    margin-top: 80px;
+    font: bold;
+}
+
+.nombre8{
+    border-radius: 10px;
+    width: 800px;
+    height: 40px;
+    background: rgba(233, 192, 255, 0.867);
+    border-style: hidden;
+    border-style: dashed;
+    border-color: #f82fff;
+    margin-right: 10px;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+    background-image: url(../imagenes/servicio-tecnico.png);
+    background-repeat: no-repeat;
+    background-position: 760px;
+    background-size: 40px;
+}
+
+.nombre9{
+    border-radius: 10px;
+    width: 400px;
+    height: 40px;
+    background: rgba(233, 192, 255, 0.867);
+    border-style: hidden;
+    border-style: dashed;
+    border-color: #f82fff;
+    margin-right: 10px;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+    background-image: url(../imagenes/precio.png);
+    background-repeat: no-repeat;
+    background-position: 360px;
+    background-size: 40px;
+    margin-left: 400px;
+}
+
+.targ-servicios2{
+    background: hsla(177, 55%, 54%, 0.278);
+    width: 1360px;
+    height: 400px;
+    margin-left: 50px;
+    border-radius: 10px;
+    border-style: dashed;
+    border-color: #de7cffa3;
+    text-align: center;
+}
+.nombreserv{
+    border-radius: 0px;
+    width: 900px;
+    height: 40px;
+    background: rgba(233, 192, 255, 0.867);
+    border-style: double;
+    border-color: #de7cffa3;
+    text-align: center;
+    font-size: 20px;   
+}
+
+.costo{
+    border-radius: 0px;
+    width: 459px;
+    height: 40px;
+    background: rgba(233, 192, 255, 0.867);
+    border-style: double;
+    border-color: #de7cffa3;
+    text-align: center;
+    font-size: 20px;   
+}
+
+.nombreserv1{
+    border-radius: 0px;
+    width: 900px;
+    height: 40px;
+    background: rgba(233, 192, 255, 0.867);
+    border-style: dashed;
+    border-color: #ffffff;
+    text-align: center;
+    font-size: 20px;
+    color: rgba(233, 192, 255, 0);  
+}
+
+.costo1{
+    border-radius: 0px;
+    width: 459px;
+    height: 40px;
+    background: rgba(233, 192, 255, 0.867);
+    border-style: dashed;
+    border-color: #ffffff;
+    text-align: center;
+    font-size: 20px;  
+    color: rgba(233, 192, 255, 0);  
+}
+
+/*Trabajadores*/
+.targ-contra{
+    border-radius: 25px;
+    float: left;
+    border-radius: 25px;
+}
+
+.targ-trabaja{
+    border-radius: 25px;
+    float: left;
+    border-radius: 25px;
+}
+
+.boton23{
+    border-radius: 15px;
+    width: 20%;
+    height: 45px;
+    color: rgb(255, 255, 255);
+    background: rgb(255, 66, 217);
+    border-style: double;
+    font-size: 20px;
+    margin-top: 21px;
+    font: bold;
+}
+
+.nombre5{
+    border-radius: 10px;
+    width: 300px;
+    height: 40px;
+    background: rgba(233, 192, 255, 0.867);
+    border-style: dashed;
+    border-color: #f82fff;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 30px;
+    background-image: url(../imagenes/arroba.png);
+    background-repeat: no-repeat;
+    background-position: 260px;
+    background-size: 40px;
+}
+
+.nombre6{
+    border-radius: 10px;
+    width: 300px;
+    height: 40px;
+    background: rgba(233, 192, 255, 0.867);
+    border-style: hidden;
+    border-style: dashed;
+    border-color: #f82fff;
+    margin-right: 10px;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+    background-image: url(../imagenes/password_5167.png);
+    background-repeat: no-repeat;
+    background-position: 260px;
+    background-size: 40px;
+}
+
+.nombre7{
+    border-radius: 10px;
+    width: 300px;
+    height: 40px;
+    background: rgba(233, 192, 255, 0.867);
+    border-style: hidden;
+    border-style: dashed;
+    border-color: #f82fff;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+    background-image: url(../imagenes/icons8-user-50.png);
+    background-repeat: no-repeat;
+    background-position: 260px;
+    background-size: 40px;
+}
+
+.targ-cliente4{
+    background: hsla(177, 55%, 54%, 0.278);
+    width: 1360px;
+    height: 400px;
+    margin-left: 50px;
+    border-radius: 10px;
+    border-style: dashed;
+    border-color: #de7cffa3;
+    text-align: center;
+}
+
+.targ-servicio1{
+        background: hsla(177, 55%, 54%, 0.278);
+        width: 550px;
+        height: 159px;
+        margin-left: 450px;
+        border-radius: 10px;
+        border-style: dashed;
+        border-color: #de7cffa3;
+        text-align: center;
+}
+
+.nombre16{
+    border-radius: 0px;
+    width: 100px;
+    height: 40px;
+    background: rgba(233, 192, 255, 0.867);
+    border-style: dashed;
+    border-color: #ffffff;
+    text-align: center;
+    font-size: 20px;  
+}
+
+.1{
+    border-radius: 0px;
+    width: 350px;
+    height: 40px;
+    background: rgba(233, 192, 255, 0.867);
+    border-style: dashed;
+    border-color: #ffffff;
+    text-align: center;
+    font-size: 20px;  
+}
+
+.boton25{
+    border-radius: 15px;
+    width: 20%;
+    height: 45px;
+    color: rgb(255, 255, 255);
+    background: rgb(255, 66, 217);
+    border-style: double;
+    font-size: 20px;
+    margin-left: 900px;
+    margin-top: 20px;
+    font: bold;
+}
+
+.nombre27{
+    border-radius: 10px;
+    width: 400px;
+    height: 40px;
+    background: rgba(233, 192, 255, 0.867);
+    border-style: hidden;
+    border-style: dashed;
+    border-color: #f82fff;
+    margin-right: 10px;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+    background-image: url(../imagenes/caret-abajo.png);
+    background-repeat: no-repeat;
+    background-position: 360px;
+    background-size: 40px;
+}
+
+.nombre26{
+    border-radius: 10px;
+    width: 400px;
+    height: 40px;
+    background: rgba(233, 192, 255, 0.867);
+    border-style: hidden;
+    border-style: dashed;
+    border-color: #f82fff;
+    margin-right: 10px;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+    background-image: url(../imagenes/buscar.png);
+    background-repeat: no-repeat;
+    background-position: 360px;
+    background-size: 40px;
+}
+
+.total{
+    font-size: 400%;
+    margin-left: 550px;
+}
+
+.nombre11111{
+    border-radius: 15px;
+    width: 50%;
+    height: 50px;
+    color: rgb(255, 255, 255);
+    background: rgb(255, 66, 217);
+    border-style: double;
+    font-size: 15px;
+    margin-left: 900px;
+    font: bold;
+}
+
+
+@media(max-width: 800px){
+    .izquierdo{
+        background: rgba(255, 113, 238, 0.265);
+        color: rgba(255, 113, 238, 0);
+        float: left;
+        width: 10%;
+        font: 100% arial;
+        text-align: center;
+        min-height:99vh ;
+        padding-top: 30px;
+    }
+    
+    .derecho{
+        background: rgb(234, 215, 254);
+        float: left;
+        width: 89%;
+        min-height: 99vh;
+    }
+
+    .derecho h1{
+        font-size: 100%;
+    }
+
+    .targ-cliente{
+        width:30%;
+        height: 30%;
+        margin-left: 1%;
+        border-style:double;
+        border-radius: 15px;
+        
+    }
+
+    .targ-cliente div {
+        width: 100%;
+    }
+    .targ-cliente div div {
+        width: 50%;
+        align-items: center;
+        justify-content: center;
+    }
+    .targ-cliente div div {
+        width: 50%;
+        align-items: center;
+        justify-content: center;
+    }
+    .targ-cliente img{
+        width: 35%;
+    }
+    .targ-cliente h1{
+        color: #ffffff;
+        font-size: 100%;
+        padding-left: 0px!important;
+    }
+    .targ-cliente h2{
+        color: #ffffff;
+        text-align: center;
+        font-size: 120%;
+    }
+
+    .targ-servicio{
+        width:30%;
+        height: 30%;
+        margin-left: 1%;
+        border-style:double;
+        border-radius: 15px;
+    }
+    .targ-servicio div {
+        width: 100%;
+    }
+    .targ-servicio div div {
+        width: 50%;
+    }
+    .targ-servicio div div {
+        width: 50%;
+    }
+    .targ-servicio img{
+        width: 35%;
+    }
+    .targ-servicio h1{
+        width: 10px;
+    }
+    .targ-servicio h2{
+        color: #ffffff;
+        text-align: center;
+        font-size: 120%;
+    }
+    
+    .targ-trabajador{
+        width: 31%;
+        height: 160px;
+        margin-left: 1%;
+        border-style:double;
+        border-radius: 15px;
+    }
+    .targ-trabajador div {
+        width: 100%;
+    }
+    .targ-trabajador div div {
+        width: 50%;
+    }
+    .targ-trabajador div div {
+        width: 50%;
+    }
+    .targ-trabajador img{
+        width: 35%;
+    }
+    .targ-trabajador h1{
+        width: 10px;
+    }
+    .targ-trabajador h2{
+        color: #ffffff;
+        text-align: center;
+        font-size: 100%;
+    }
+
+    .derecho p{
+        color: #000000;
+        padding-top: 180px;
+        padding-left: 45px;
+        font-size: 20px;
+        margin-bottom: 0px;
+    }
+    
+    .targ-nventa{
+        background: hsla(177, 55%, 54%, 0.278);
+        width: 90%;
+        height: 200px;
+        margin-top: 3%;
+        margin-left: 17px;
+        padding-top: 0px;
+        border-style:double;
+        border-radius: 17px;
+        border-color: #de7cffa3;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .targ-cliente1{
+        background: hsla(177, 55%, 54%, 0.278);
+        width: 99.8%;
+        height: 200%;
+        margin-left: 1%;
+        border-style:double;
+        border-radius: 15px;
+    }
+    
+    .targ-posi {
+        width: 55%;
+        height:50%;
+        margin-left: 45%;
+        border-style:double;
+        border-radius: 15px;
+    }
+    
+    .targ-posi h2{
+        color: #000000;
+        font-size: 15px;
+        margin-left: 10%;
+    }
+    
+    .nombre{
+        width: 40%;
+        height: 30%;
+        margin-right: 100%;
+        font-size: 70%;
+        margin-top: 2%;
+        background-image: url(../imagenes/icons8-user-50.png);
+        background-repeat: no-repeat;
+        background-position: 97%;
+        background-size: 5%;
+        border-style:double;
+        border-radius: 15px;
+    }
+    
+    .targ-name {
+        width: 193%;
+        height: 30%;
+        border-radius: 25px;
+        float: left;
+        margin-left: 30px;
+        text-align: right;
+    }
+    
+    .targ-ape1 {
+        width: 193%;
+        height: 30%;
+        border-radius: 25px;
+        float: left;
+        margin-left: 30px;
+        border-radius: 25px;
+        text-align: right;
+
+    }
+    .targ-ape2 {
+        width: 193%;
+        height: 30%;
+        border-radius: 25px;
+        float: left;
+        margin-left: 30px;
+        border-radius: 25px;
+        text-align: right;
+    }
+    
+    .nombre2{
+        width: 40%;
+        height: 30%;
+        margin-right: 100%;
+        font-size: 70%;
+        margin-top: 2%;
+        background-image: url(../imagenes/ubicacion.png);
+        background-repeat: no-repeat;
+        background-position: 97%;
+        background-size: 5%;
+        border-style:double;
+        border-radius: 15px;
+    }
+    
+    .targ-direc{
+        width: 193%;
+        height: 30%;
+        border-radius: 25px;
+        float: left;
+        margin-left: 30px;
+        border-radius: 25px;
+        text-align: right;
+        
+    }
+    
+    .nombre3{
+        width: 40%;
+        height: 30%;
+        margin-right: 100%;
+        font-size: 70%;
+        margin-top: 2%;
+        background-image: url(../imagenes/servicio-tecnico.png);
+        background-repeat: no-repeat;
+        background-position: 97%;
+        background-size: 5%;
+        border-style:double;
+        border-radius: 15px;
+    }
+    .targ-tel{
+        width: 193%;
+        height: 100%;
+        border-radius: 25px;
+        float: left;
+        margin-left: 30px;
+        border-radius: 25px;
+        text-align: right;
+    }
+    
+    .nombre4{
+        width: 40%;
+        height: 30%;
+        margin-right: 100%;
+        font-size: 70%;
+        margin-top: 2%;
+        background-image: url(../imagenes/precio.png);
+        background-repeat: no-repeat;
+        background-position: 97%;
+        background-size: 5%;
+        border-style:double;
+        border-radius: 15px;
+    }
+    .targ-correo{
+        width: 193%;
+        height: 100%;
+        border-radius: 25px;
+        float: left;
+        margin-left: 30px;
+        border-radius: 25px;
+        text-align: right;
+    }
+    
+    .boton2{
+        border-radius: 15px;
+        width: 30%;
+        height: 10%;
+        color: rgb(255, 255, 255);
+        background: rgb(255, 66, 217);
+        border-style: double;
+        font-size: 13px;
+        margin-left: 1%;
+        margin-top: 10px;
+        font: bold;
+    }
+    
+    /*tabla*/
+    .targ-cliente2{
+        background: hsla(177, 55%, 54%, 0.278);
+        width: 99.8%;
+        height: 240px;
+        margin-left: 1%;
+        border-style:double;
+        border-radius: 15px;
+        
+    }
+    
+    .nombre1{
+        width: 120%;
+        height: 40px;
+        background: rgba(233, 192, 255, 0.867);
+        border-style: double;
+        border-color: #ffffff;
+        text-align: center;
+        margin-left: 0px;
+        font-size: 7px;   
+        border-color: #de7cffa3;
+    }
+
+    .boton23{
+        border-radius: 15px;
+        width: 20%;
+        height: 45px;
+        color: rgb(255, 255, 255);
+        background: rgb(255, 66, 217);
+        border-style: double;
+        font-size: 20px;
+        margin-top: 21px;
+        font: bold;
+    }
+
+    .nombre5{
+        width: 130%;
+        height: 30%;
+        margin-right: 100%;
+        font-size: 70%;
+        margin-top: 5%;
+        background-image: url(../imagenes/arroba.png);
+        background-repeat: no-repeat;
+        background-position: 97%;
+        background-size: 5%;
+    }
+    
+    .nombre77{
+        border-radius: 0%;
+        width: 120%;
+        height: 40px;
+        background: rgba(233, 192, 255, 0.867);
+        border-style: dashed;
+        border-color: #ffffff;
+        text-align: center;
+        margin-left: 0px;
+        font-size: 7px;  
+        color: rgba(0, 0, 0, 0); 
+    }
+
+    .targ-name1{
+        border-radius: 25px;
+        float: left;
+    }
+    
+    .targ-ape11{
+        border-radius: 25px;
+        float: left;
+        border-radius: 25px;
+        margin-left: 3%;
+    }
+    
+    .targ-ape22{
+        border-radius: 25px;
+        float: left;
+        margin-left: 3%;
+    }
+    
+    .targ-direc1{
+        border-radius: 25px;
+        float: left;
+        margin-left: 2%;
+    }
+    
+    .targ-tel1{
+        border-radius: 25px;
+        float: left;
+        border-radius: 25px;
+    }
+    
+    .targ-correo1{
+        border-radius: 25px;
+        float: left;
+        border-radius: 25px;
+    }
+    
+    
+    .nombre111{
+        border-radius: 15px;
+        width: 130%;
+        height: 25%;
+        color: rgb(255, 255, 255);
+        background: rgb(255, 66, 217);
+        border-style: double;
+        font-size: 15px;
+        margin-left: 70%;
+        margin-top: 1px;
+        font: bold;
+    }
+    
+    .nombre1111{
+        border-radius: 15px;
+        width: 130%;
+        height: 25%;
+        color: rgb(255, 255, 255);
+        background: rgb(255, 66, 217);
+        border-style: double;
+        margin-left: 100%;
+        font-size: 15px;
+        margin-top: 1px;
+        font: bold;
+    }
+
+    .boton25{
+        border-radius: 15px;
+        width: 40%;
+        height: 10%;
+        color: rgb(255, 255, 255);
+        background: rgb(255, 66, 217);
+        border-style:double;
+        border-radius: 15px;
+        font-size: 13px;
+        margin-left: 1%;
+        margin-top: 10px;
+        font: bold;
+    }
+    
+    .nombre27{
+        width: 40%;
+        height: 30%;
+        margin-right: 100%;
+        font-size: 70%;
+        margin-top: 2%;
+        background-image: url(../imagenes/caret-abajo.png);
+        background-repeat: no-repeat;
+        background-position: 97%;
+        background-size: 5%;
+        border-style:double;
+        border-radius: 15px;
+    }
+    
+    .nombre26{
+        border-style:double;
+        border-radius: 15px;
+        width: 40%;
+        height: 30%;
+        margin-right: 100%;
+        font-size: 70%;
+        margin-top: 2%;
+        background-image: url(../imagenes/buscar.png);
+        background-repeat: no-repeat;
+        background-position: 97%;
+        background-size: 5%;
+    }
+
+    .targ-servicio1{
+        background: hsla(177, 55%, 54%, 0.278);
+        width: 99.8%;
+        height: 220px;
+        margin-left: 1%;
+        border-style:double;
+        border-radius: 15px;
+        
+    }
+
+    .nombre50{
+        width: 40%;
+        height: 30%;
+        margin-right: 100%;
+        font-size: 70%;
+        margin-top: 2%;
+        background-image: url(../imagenes/password_5167.png);
+        background-repeat: no-repeat;
+        background-position: 97%;
+        background-size: 5%;
+        border-style:double;
+        border-radius: 15px;
+        
+    }
+
+    .nombre51{
+        width: 40%;
+        height: 30%;
+        margin-right: 100%;
+        font-size: 70%;
+        margin-top: 2%;
+        background-image: url(../imagenes/icons8-user-50.png);
+        background-repeat: no-repeat;
+        background-position: 97%;
+        background-size: 5%;
+        border-style:double;
+        border-radius: 15px;
+    }
+
+    .targ-servicios{
+        background: hsla(177, 55%, 54%, 0.278);
+        width: 99.8%;
+        height: 200%;
+        margin-left: 1%;
+        border-style:double;
+        border-radius: 15px;
+    }
+
+    .targ-servicios2{
+        background: hsla(177, 55%, 54%, 0.278);
+        width: 99.8%;
+        height: 220px;
+        margin-left: 1%;
+        border-style:double;
+        border-radius: 15px;
+    }
+
+    .nombreserv{
+        border-radius: 0px;
+        width: 230%;
+        height: 30px;
+        background: rgba(233, 192, 255, 0.867);
+        border-style: double;
+        border-color: #de7cffa3;;
+        text-align: center;
+        font-size: 10px;   
+    }
+    
+    .costo{
+        border-radius: 0px;
+        width: 150%;
+        height: 30px;
+        margin-left: 276%;
+        background: rgba(233, 192, 255, 0.867);
+        border-style: double;
+        border-color: #de7cffa3;
+        text-align: center;
+        font-size: 10px;   
+    }
+
+    .total{
+        font-size: 100%;
+        margin-left: 110px;
+    }
+    
+    .nombre11111{
+        border-radius: 15px;
+        width: 70%;
+        height: 30px;
+        color: rgb(255, 255, 255);
+        background: rgb(255, 66, 217);
+        border-style: double;
+        font-size: 15px;
+        margin-left: 80px;
+        font: bold;
+    }
+
+
+
+
+    .nombre16{
+    border-radius: 0px;
+    width: 250%;
+    margin-left: 240%;
+    height: 30px;
+    background: rgba(233, 192, 255, 0.867);
+    border-style: double;
+    border-color: #de7cffa3;
+    text-align: center;
+    font-size: 7px;  
+    }
+
+    .nombre17{
+        border-radius: 0px;
+        width: 103%;
+        margin-left: 310%;
+        height: 30px;
+        background: rgba(233, 192, 255, 0.867);
+        border-style: double;
+        border-color: #de7cffa3;
+        text-align: center;
+        font-size: 7px;  
+    }
+
+    .nom1{
+    border-radius: 0px;
+    width: 222%;
+    height: 30px;
+    background: rgba(233, 192, 255, 0.867);
+    border-style: double;
+    border-color: #de7cffa3;
+    text-align: center;
+    font-size: 7px;  
+}
+
+.nombre19{
+    border-radius: 0px;
+    width: 250%;
+    height: 30px;
+    background: rgba(233, 192, 255, 0.867);
+    border-style: dashed;
+    border-color: #ffffff;
+    text-align: center;
+    font-size: 7px;  
+    }
+
+    .nombre20{
+        border-radius: 0px;
+        width: 103%;
+        height: 30px;
+        background: rgba(233, 192, 255, 0.867);
+        border-style: dashed;
+        border-color: #ffffff;
+        text-align: center;
+        font-size: 7px;  
+    }
+
+    .nom18{
+    border-radius: 0px;
+    width: 222%;
+    height: 30px;
+    margin-left: 20px;
+    background: rgba(233, 192, 255, 0.867);
+    border-style: dashed;
+    border-color: #ffffff;
+    text-align: center;
+    font-size: 7px;  
+    }
+
+    body{
+        background: rgb(234, 215, 254);
+      }
+      
+      #login{
+          color: rgb(255, 255, 255); 
+          background: linear-gradient(55deg, rgba(160,30,200,100) 0%, rgba(187,34,200,100) 30%, rgba(297,92,184,50) 100%);
+          width: 98%;
+          min-height: 697px;
+          border-radius: 25px 0 25px 0;
+          margin: 0 auto;
+          margin-top: 7%;
+          margin-left: 1%;
+          text-align: center;
+      }
+      
+      #login h1{
+          margin: 0 auto;
+          color: rgb(255, 255, 255);
+          text-align: center;
+          font: bold 200% arial;
+          margin-top: 10px;
+      }
+      
+      .caja{
+          border-radius: 10px;
+          width: 80%;
+          height: 40px;
+          background: rgba(217, 166, 245, 0.763);
+          border-style: hidden;
+          font-size: 17px;
+          text-align: center;
+          background-position: left;
+          background-repeat: no-repeat;
+      }
+      
+      .user{
+          background-image: url(../imagenes/ic-username_97587.png);
+          background-position: 10px;
+          background-repeat: no-repeat;
+          background-size: 30px;
+      }
+      
+      .pass{
+          background-image: url(../imagenes/icons8-password-48.png);
+          background-position: 2px;
+          background-repeat: no-repeat;
+      }
+      
+      .boton{
+          border-radius: 15px;
+          width: 60%;
+          height: 45px;
+          color: rgb(255, 255, 255);
+          background: rgb(250, 85, 217);
+          border-style: hidden;
+          font-size: 20px;
+      }
+      
+      #login2{
+        color: rgb(255, 255, 255); 
+        background: linear-gradient(55deg, rgba(160,30,200,100) 0%, rgba(187,34,200,100) 30%, rgba(297,92,184,50) 100%);
+        width: 96%;
+        min-height: 690px;
+        border-radius: 25px 0 25px 0;
+        margin: 0 auto;
+        margin-top: 7%;
+        margin-left: 2%;
+        text-align: center;
+    }
+    
+      #login p{
+          /*text-align: right;*/
+          font: 100% arial;
+          padding-left: 140px;
+          font-size: 11px;
+      }
+      
+      .email{
+          background-image: url(../imagenes/icons8-arroba-48.png);
+          background-position: 10px;
+          background-repeat: no-repeat;
+          background-size: 30px;
+      }
+      
+      #login p.em{
+          /*text-align: right;*/
+          font: 100% arial;
+          padding-left: 10px;
+          font-size: 11px;
+      }
+      
+      #login a:link{
+          color: rgb(255, 213, 213);
+      }
+      
+      #login a:visited{
+          color: rgb(255, 255, 255);
+      }
+      
+      #login a:hover{
+          color: #7b00ff;
+      }
+}
